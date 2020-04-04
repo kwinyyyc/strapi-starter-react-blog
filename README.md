@@ -1,27 +1,32 @@
 # Strapi Starter React Blog
 
-React starter for creating a blog with Strapi.
-
-This starter allows you to try Strapi with React with the example of a simple blog. It is fully customizable and due to the fact that it is open source, fully open to contributions. Do not hesitate to add new features etc ...
-
-You may want to know how to develop such a starter by your own! This starter is actually the result of this [tutorial](https://strapi.io/blog/build-a-blog-with-react-strapi-and-apollo)
+This is a starter cloned from Official strapi repository for which you can find here
+[repo](https://github.com/strapi/strapi-starter-react-blog)
+[tutorial](https://strapi.io/blog/build-a-blog-with-react-strapi-and-apollo)
 
 ![screenshot image](/screenshot.png)
 
-### Features
+This repo has implemented the follow enhancements based on the guide from strapi website
 
-- 2 Content types: Article, Category
-- Permissions set to `true` for article and category
-- 2 Created articles
-- 3 Created categories
-- Apollo integration (GraphQL) for fetching data from strapi
-- Responsive design using UIkit
+### Enhancement
 
-### Pages
-
-- "/" display every articles
-- "/article/:id" display one article
-- "/category/:id" display articles depending on the category
+- Upgrade strapi version that supports Single Type
+- Restrict only the owner to edit the blog post
+  <a href="https://strapi.io/documentation/3.0.0-beta.x/guides/is-owner.html" target="_blank">
+  (original guide)
+  </a>
+- Draft system to publish blog post when it is ready
+  <a href="https://strapi.io/documentation/3.0.0-beta.x/guides/draft.html" target="_blank">
+  (original guide)
+  </a>
+- Scheduled date of publication
+  <a href="https://strapi.io/documentation/3.0.0-beta.x/guides/scheduled-publication.html" target="_blank">
+  (original guide)
+  </a>
+- Create a slug system
+  <a href="https://strapi.io/documentation/3.0.0-beta.x/guides/slug.html" target="_blank">
+  (original guide)
+  </a>
 
 ### Getting started
 
