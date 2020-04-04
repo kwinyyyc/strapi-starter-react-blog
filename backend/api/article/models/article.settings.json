@@ -39,7 +39,9 @@
         "draft",
         "published",
         "archive"
-      ]
+      ],
+      "default": "draft",
+      "required": true
     },
     "publish_at": {
       "type": "datetime",
