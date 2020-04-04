@@ -47,6 +47,9 @@
       "type": "datetime",
       "private": false,
       "required": false
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
