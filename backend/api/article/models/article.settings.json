@@ -36,6 +36,14 @@
       "plugin": "users-permissions",
       "model": "user",
       "via": "articles"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "published",
+        "archive"
+      ]
     }
   }
 }
