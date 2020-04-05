@@ -1,4 +1,5 @@
 "use strict";
+const slugify = require("slugify");
 
 /**
  * Lifecycle callbacks for the `article` model.
