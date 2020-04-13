@@ -20,7 +20,15 @@ This is a starter cloned from Official strapi repository for which you can find 
 
    1.4 Click the `View` button
 
-1. Frontend deployment (WIP)
+1. Frontend deployment
+
+   [![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kwinyyyc/strapi-starter-react-blog)
+
+   2.1 Log in your Netlify account
+
+   2.2 Clone the repo to your github account
+
+   2.3 Input the `REACT_APP_BACKEND_URL` with the backend Strapi on Heroku `${APP_NAME}.herokuapp.com`
 
 ![screenshot image](/screenshot.png)
 
