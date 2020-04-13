@@ -10,11 +10,19 @@ This is a starter cloned from Official strapi repository for which you can find 
 
 1. Backend deployment
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](ttps://heroku.com/deploy?template=https://github.com/kwinyyyc/strapi-starter-react-blog)
+   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kwinyyyc/strapi-starter-react-blog)
+
+   1.1 Log in your Heroku account
+
+   1.2 Type in `App name`
+
+   1.3 Click the `Deploy app` button and wait for the build to complete
+
+   1.4 Click the `View` button
+
+1. Frontend deployment (WIP)
 
 ![screenshot image](/screenshot.png)
-
-2. Frontend deployment (WIP)
 
 ### Continuous Deployment Steps
 
