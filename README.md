@@ -26,9 +26,11 @@ This is a starter cloned from Official strapi repository for which you can find 
 
    2.1 Log in your Netlify account
 
-   2.2 Clone the repo to your github account
+   2.2 Connect to your github account
 
-   2.3 Input the `REACT_APP_BACKEND_URL` with the backend Strapi on Heroku `${APP_NAME}.herokuapp.com`
+   2.3 Input the `Repository name` and `REACT_APP_BACKEND_URL` with the backend Strapi on Heroku `https://${APP_NAME}.herokuapp.com`
+
+   2.4 Click the `Save & Deploy` button
 
 ![screenshot image](/screenshot.png)
 
