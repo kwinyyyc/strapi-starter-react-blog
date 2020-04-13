@@ -11,7 +11,7 @@
  */
 const fs = require("fs");
 const path = require("path");
-const { articles } = require("../../seed/seed");
+const { articles, categories } = require("../../seed/seed");
 
 const findRoles = async () => {
   const result = await strapi
@@ -52,7 +52,12 @@ const getFilesizeInBytes = (filepath) => {
 };
 
 const createSeedData = async () => {
-  const seedDataPromises = articles.map((article) => {
+  const categoriesPromises = categories.map(({ ...rest }) => {
+    return strapi.services.category.create({
+      ...rest,
+    });
+  });
+  const articlesPromises = articles.map((article) => {
     const { imageFileName, mimeType, ...rest } = article;
     const filepath = path.join(
       strapi.config.seed.path,
@@ -76,7 +81,8 @@ const createSeedData = async () => {
       { files }
     );
   });
-  await Promise.all(seedDataPromises);
+  await Promise.all(categoriesPromises);
+  await Promise.all(articlesPromises);
 };
 
 module.exports = async () => {

@@ -1,8 +1,11 @@
 module.exports = {
+  categories: [{ name: "news" }, { name: "trends" }],
   articles: [
     {
       mimeType: "image/jpeg",
       imageFileName: "blog-header-network.jpg",
+      publish_at: new Date(),
+      category: 1,
       status: "published",
       title: "Thanks for giving this Starter a try!",
       content: `# Thanks
@@ -25,6 +28,8 @@ module.exports = {
     {
       mimeType: "image/jpeg",
       imageFileName: "blog-header-balloon.jpg",
+      publish_at: new Date(),
+      category: 2,
       status: "published",
       title: "Enjoy!",
       content: "Have fun!",
