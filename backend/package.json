@@ -12,9 +12,11 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "dotenv": "^8.2.0",
     "fs": "^0.0.1-security",
     "knex": "<0.20.0",
     "path": "^0.12.7",
+    "pg": "7.4.3",
     "rimraf": "^3.0.1",
     "slugify": "^1.4.0",
     "sqlite3": "latest",
@@ -37,8 +39,8 @@
     "uuid": ""
   },
   "engines": {
-    "node": ">=10.0.0",
-    "npm": ">=6.0.0"
+    "node": "12.14.x",
+    "yarn": "1.x"
   },
   "license": "MIT"
 }
