@@ -3,10 +3,9 @@
     "setup": "yarn && npm-run-all -p setup:*",
     "setup:backend": "cd backend && yarn",
     "setup:frontend": "cd frontend && yarn",
-    "develop": "yarn seed && npm-run-all -p develop:*",
+    "develop": "npm-run-all -p develop:*",
     "develop:backend": "cd backend && yarn develop",
     "develop:frontend": "cd frontend && yarn develop",
-    "seed": "cd backend && yarn seed",
     "build": "cd backend && yarn build"
   },
   "devDependencies": {

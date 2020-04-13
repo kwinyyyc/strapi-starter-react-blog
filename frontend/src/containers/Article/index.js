@@ -29,7 +29,7 @@ const Article = () => {
               <div className="uk-container uk-container-small">
                 <ReactMarkdown source={article.content} />
                 <p>
-                  <Moment format="MMM Do YYYY">{article.published_at}</Moment>
+                  <Moment format="MMM Do YYYY">{article.publish_at}</Moment>
                 </p>
               </div>
             </div>
