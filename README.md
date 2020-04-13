@@ -1,12 +1,22 @@
 # Strapi Starter React Blog
 
+This repo aims to enabling people to quickly generate a playground environment to actually get started playing with Strapi. It has the basic features for both frontend and backend as a blogging platform.
+
 This is a starter cloned from Official strapi repository for which you can find here
 [repo](https://github.com/strapi/strapi-starter-react-blog)
 [tutorial](https://strapi.io/blog/build-a-blog-with-react-strapi-and-apollo)
 
+### Initial Deployment Steps
+
+1. Backend deployment
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](ttps://heroku.com/deploy?template=https://github.com/kwinyyyc/strapi-starter-react-blog)
+
 ![screenshot image](/screenshot.png)
 
-This repo has implemented the follow enhancements based on the guide from strapi website
+2. Frontend deployment (WIP)
+
+### Continuous Deployment Steps
 
 ### Enhancement
 
