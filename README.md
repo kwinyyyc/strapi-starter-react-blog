@@ -14,7 +14,7 @@ This is a starter cloned from Official strapi repository for which you can find 
 
    1.1 Log in your Heroku account
 
-   1.2 Type in `App name`
+   1.2 Type in `App name`, `CLOUDINARY_API_KEY`, `CLOUDINARY_API_SECRET` and `CLOUDINARY_CLOUD_NAME`
 
    1.3 Click the `Deploy app` button and wait for the build to complete
 

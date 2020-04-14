@@ -16,10 +16,8 @@ const Article = () => {
             <div
               id="banner"
               className="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light uk-padding uk-margin"
-              data-src={process.env.REACT_APP_BACKEND_URL + article.image.url}
-              data-srcset={
-                process.env.REACT_APP_BACKEND_URL + article.image.url
-              }
+              data-src={article.image.url}
+              data-srcset={article.image.url}
               data-uk-img
             >
               <h1>{article.title}</h1>
