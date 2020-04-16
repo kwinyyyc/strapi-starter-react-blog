@@ -1,6 +1,6 @@
 # Strapi Starter React Blog
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/strapi/strapi-starter-react-blog)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kwinyyyc/strapi-starter-react-blog)
 
 React starter for creating a blog with Strapi.
 
