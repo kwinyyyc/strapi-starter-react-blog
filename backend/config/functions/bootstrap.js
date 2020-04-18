@@ -115,7 +115,7 @@ module.exports = async () => {
   const shouldInit = await isFirstRun();
   if (shouldInit) {
     await setDefaultPermissions();
-    await setDefaultFileUploader();
-    await createSeedData();
+    // await setDefaultFileUploader();
+    // await createSeedData();
   }
 };
